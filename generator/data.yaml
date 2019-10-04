@@ -1,0 +1,177 @@
+persons:
+- name: Lucas Käldström
+  email: lucas@luxaslabs.com
+  biography: |
+    Lucas is a cloud native enthusiast who has been serving the Kubernetes & CNCF communities
+    in lead positions for more than 4 years. Lucas is a CNCF Ambassador, running 3 meetup
+    groups in Finland and coordinating the Cloud Native Nordics meetups. He got the "Top Cloud
+    Native Ambassador" award together with Sarah Novotny 2017. Lucas has e.g. shepherded kubeadm
+    from inception to GA as a co-lead for SIG Cluster Lifecycle, ported Kubernetes to Raspberry Pi
+    and multiple other platforms. Lucas is a CKA, runs a consulting company "luxas labs" for cloud
+    native tech and has spoken at six KubeCons.
+  socialMedia:
+    github: luxas
+    twitter: kubernetesonarm
+    speakerdeck: luxas
+    linkedin: luxas
+    slack:
+      cloud-native-nordics: luxas
+      cloud-native: luxas
+      kubernetes: luxas
+  certifications:
+  - name: Linux Foundation Certified System Administrator
+    short: LFCS
+    description: |
+      Earners of this designation demonstrated the skills required to do basic to intermediate
+      system administration and are knowledgeable in the operational support of Linux systems
+      and services. Earners can assume responsibility for first line troubleshooting and analysis,
+      and demonstrated proficiency in Essential Commands, Operation of Running Systems, User and
+      Group Management, Networking, Service Configuration, Virtualization and Storage Management.
+    issuer: Linux Foundation
+    acclaimLink: https://www.youracclaim.com/badges/21dab33a-6e72-4cc5-9812-4c75e668cc14
+  - name: Certified Kubernetes Administrator
+    short: CKA
+    description: |
+      Earners of this designation demonstrated the skills, knowledge and competencies to perform
+      the responsibilities of a Kubernetes Administrator. Earners demonstrated proficiency in
+      Application Lifecycle Management, Installation, Configuration & Validation, Core Concepts,
+      Networking, Scheduling, Security, Cluster Maintenance, Logging / Monitoring, Storage, and
+      Troubleshooting
+    issuer: Cloud Native Computing Foundation
+    acclaimLink: https://www.youracclaim.com/badges/98e38048-5ea4-474b-aa74-d6ed5bb52837
+  positions:
+  - title: Kubernetes Subproject Owner & Approver
+    description: |
+      Owning and responsible for approving various parts
+      of the Kubernetes codebase (formerly called Maintainer)
+    organization: Kubernetes
+    startDate: "2016-04-01T00:00:00Z"
+  - title: Kubernetes SIG Cluster Lifecycle Chair
+    description: |
+      Co-chair of SIG Cluster Lifecycle, responsible
+      for making installing/configuring Kubernetes easy
+    organization: Kubernetes
+    startDate: "2017-09-13T00:00:00Z"
+    endDate: "2019-09-01T00:00:00Z"
+  - title: Kubernetes WG Component Standard Chair
+    description: |
+      Co-chair of WG Component Standard, responsible
+      for standardizing semantics of Kubernetes components
+    organization: Kubernetes
+    startDate: "2018-12-04T00:00:00Z"
+    endDate: "2019-06-12T00:00:00Z"
+  - title: CNCF Ambassador
+    description: |
+      Representing CNCF in various contexts, responsible for
+      the CNCF & Kubernetes Finland meetups, and is running
+      the Cloud Native Nordics meetup alliance.
+    organization: Cloud Native Computing Foundation
+    startDate: "2017-07-15T00:00:00Z"
+  - title: CEO
+    description: |
+      Running luxas labs, a consulting company for cloud native
+      technologies helping customers succeed by working upstream
+      and providing expert services as needed.
+    organization: luxas labs
+    startDate: "2017-07-15T00:00:00Z"
+company:
+  name: luxas labs
+  id: FI29771562
+  email: lucas@luxaslabs.com 
+  solutions:
+  - name: Kubernetes & Cloud Native Expert Consulting
+    description: |
+      Do you have questions around Kubernetes and/or Cloud Native?
+      I can help in many different ways with getting up to speed
+      with Kubernetes, solving problems, and doing architecture reviews.
+  - name: Kubernetes Workshops
+    description: |
+      Want to get started with Kubernetes? Or do you need a
+      deep-dive into how it works and make the most of it? Then
+      practical full- or half-day workshops is the right fit!
+blogPosts:
+- name: A Stronger Foundation for Creating and Managing Kubernetes Clusters
+  date: "2017-01-12T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  sourceLink: https://kubernetes.io/blog/2017/01/stronger-foundation-for-creating-and-managing-kubernetes-clusters/
+- name: "kubeadm v1.8 Released: Introducing Easy Upgrades for Kubernetes clusters"
+  date: "2017-10-25T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  sourceLink: https://kubernetes.io/blog/2017/10/kubeadm-v18-released/
+- name: Production-Ready Kubernetes Cluster Creation with kubeadm
+  date: "2018-12-04T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  - Luc Perkins
+  sourceLink: https://kubernetes.io/blog/2018/12/04/production-ready-kubernetes-cluster-creation-with-kubeadm/
+- name: "Automated High Availability in kubeadm v1.15: Batteries Included But Swappable"
+  date: "2019-06-24T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  - Fabrizio Pandini
+  sourceLink: https://kubernetes.io/blog/2019/06/24/automated-high-availability-in-kubeadm-v1.15-batteries-included-but-swappable/
+- name: "Kubernetes High Availability: No Single Point of Failure"
+  date: "2018-04-10T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  - Joab Jackson
+  sourceLink: https://thenewstack.io/kubernetes-high-availability-no-single-point-of-failure/
+- name: Fire Up Your VMs with Weave Ignite
+  date: "2019-07-10T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  - Alexis Richardson
+  sourceLink: https://www.weave.works/blog/fire-up-your-vms-with-weave-ignite
+- name: Weave Ignite blazing a trail
+  date: "2019-09-03T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  - Daniel Holbach
+  sourceLink: https://www.weave.works/blog/weave-ignite-blazing-a-trail
+- name: What Does “Production Ready” Really Mean for a Kubernetes Cluster?
+  date: "2018-05-17T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  - Cezzaine Zaher
+  sourceLink: https://www.weave.works/blog/what-does-production-ready-really-mean-for-a-kubernetes-cluster
+- name: "Kops vs. Kubeadm: What’s the difference?"
+  date: "2018-02-27T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  - Anita Buehrle
+  - Chris Love
+  sourceLink: https://www.weave.works/blog/kops-vs-kubeadm
+- name: "Weave Cloud and The Future of K8s: A Simplified Kubernetes Installation"
+  date: "2017-03-14T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  sourceLink: https://www.weave.works/blog/k8s-future-simplified-kubernetes-installation/
+- name: "Kubernetes on Raspberry Pi: Challenges & Advantages"
+  date: "2017-03-07T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  - Sonja Schweigert
+  sourceLink: https://www.weave.works/blog/kubernetes-raspberry-pi/
+- name: Running Highly Available Clusters with Kubeadm
+  date: "2019-08-29T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  - Anita Buehrle
+  sourceLink: https://www.weave.works/blog/running-highly-available-clusters-with-kubeadm
+- name: How to deploy Kubernetes on the Raspberry Pi
+  date: "2017-03-21T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  sourceLink: https://opensource.com/article/17/3/kubernetes-raspberry-pi
+- name: Setup Kubernetes on a Raspberry Pi Cluster easily the official way!
+  date: "2017-01-11T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  sourceLink: https://blog.hypriot.com/post/setup-kubernetes-raspberry-pi-cluster/
+- name: "Diversity Scholarship Series: My Programming Journey – Becoming a Kubernetes Maintainer"
+  date: "2016-11-29T00:00:00Z"
+  authors:
+  - Lucas Käldström
+  sourceLink: https://www.cncf.io/blog/2016/11/29/diversity-scholarship-series-programming-journey-becoming-kubernetes-maintainer/
