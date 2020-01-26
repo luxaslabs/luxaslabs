@@ -1,0 +1,464 @@
+{
+  "persons": [
+    {
+      "name": "Lucas Käldström",
+      "Email": "lucas@luxaslabs.com",
+      "biography": "Lucas is a cloud native enthusiast who has been serving the Kubernetes \u0026 CNCF communities\nin lead positions for more than 4 years. Lucas is a CNCF Ambassador, running 3 meetup\ngroups in Finland and coordinating the Cloud Native Nordics meetups. He got the \"Top Cloud\nNative Ambassador\" award together with Sarah Novotny 2017. Lucas has e.g. shepherded kubeadm\nfrom inception to GA as a co-lead for SIG Cluster Lifecycle, ported Kubernetes to Raspberry Pi\nand multiple other platforms. Lucas is a CKA, runs a consulting company \"luxas labs\" for cloud\nnative tech and has spoken at six KubeCons.\n",
+      "socialMedia": {
+        "github": "luxas",
+        "Twitter": "kubernetesonarm",
+        "speakerdeck": "luxas",
+        "LinkedIn": "luxas",
+        "Slack": {
+          "cloud-native": "luxas",
+          "cloud-native-nordics": "luxas",
+          "kubernetes": "luxas"
+        }
+      },
+      "certifications": [
+        {
+          "name": "Linux Foundation Certified System Administrator",
+          "short": "LFCS",
+          "description": "Earners of this designation demonstrated the skills required to do basic to intermediate\nsystem administration and are knowledgeable in the operational support of Linux systems\nand services. Earners can assume responsibility for first line troubleshooting and analysis,\nand demonstrated proficiency in Essential Commands, Operation of Running Systems, User and\nGroup Management, Networking, Service Configuration, Virtualization and Storage Management.\n",
+          "issuer": "Linux Foundation",
+          "acclaimLink": "https://www.youracclaim.com/badges/21dab33a-6e72-4cc5-9812-4c75e668cc14"
+        },
+        {
+          "name": "Certified Kubernetes Administrator",
+          "short": "CKA",
+          "description": "Earners of this designation demonstrated the skills, knowledge and competencies to perform\nthe responsibilities of a Kubernetes Administrator. Earners demonstrated proficiency in\nApplication Lifecycle Management, Installation, Configuration \u0026 Validation, Core Concepts,\nNetworking, Scheduling, Security, Cluster Maintenance, Logging / Monitoring, Storage, and\nTroubleshooting\n",
+          "issuer": "Cloud Native Computing Foundation",
+          "acclaimLink": "https://www.youracclaim.com/badges/98e38048-5ea4-474b-aa74-d6ed5bb52837"
+        }
+      ],
+      "positions": [
+        {
+          "title": "Kubernetes Subproject Owner \u0026 Approver",
+          "description": "Owning and responsible for approving various parts\nof the Kubernetes codebase (formerly called Maintainer)\n",
+          "organization": "Kubernetes",
+          "startDate": "2016-04-01T00:00:00Z",
+          "endDate": null
+        },
+        {
+          "title": "Kubernetes SIG Cluster Lifecycle Chair",
+          "description": "Co-chair of SIG Cluster Lifecycle, responsible\nfor making installing/configuring Kubernetes easy\n",
+          "organization": "Kubernetes",
+          "startDate": "2017-09-13T00:00:00Z",
+          "endDate": "2019-09-01T00:00:00Z"
+        },
+        {
+          "title": "Kubernetes WG Component Standard Chair",
+          "description": "Co-chair of WG Component Standard, responsible\nfor standardizing semantics of Kubernetes components\n",
+          "organization": "Kubernetes",
+          "startDate": "2018-12-04T00:00:00Z",
+          "endDate": "2019-06-12T00:00:00Z"
+        },
+        {
+          "title": "CNCF Ambassador",
+          "description": "Representing CNCF in various contexts, responsible for\nthe CNCF \u0026 Kubernetes Finland meetups, and is running\nthe Cloud Native Nordics meetup alliance.\n",
+          "organization": "Cloud Native Computing Foundation",
+          "startDate": "2017-07-15T00:00:00Z",
+          "endDate": null
+        },
+        {
+          "title": "CEO",
+          "description": "Running luxas labs, a consulting company for cloud native\ntechnologies helping customers succeed by working upstream\nand providing expert services as needed.\n",
+          "organization": "luxas labs",
+          "startDate": "2017-07-15T00:00:00Z",
+          "endDate": null
+        }
+      ],
+      "presentations": [
+        {
+          "title": "Intel and ARM, let Kubernetes rule them all!",
+          "date": "2017-03-24T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/intel-and-arm-let-kubernetes-rule-them-all",
+          "recording": "https://youtu.be/MxeVwAbRbDM"
+        },
+        {
+          "title": "Autoscaling a multi-platform Kubernetes cluster built with kubeadm",
+          "date": "2017-03-30T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/autoscaling-a-multi-platform-kubernetes-cluster-built-with-kubeadm",
+          "recording": "https://youtu.be/ZdzKQwMjg2w"
+        },
+        {
+          "title": "Intro to the cloud-native world of Kubernetes -- Helsinki October meetup",
+          "date": "2017-10-04T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/intro-to-the-cloud-native-world-of-kubernetes-helsinki-october-meetup",
+          "recording": "https://youtu.be/9Oc69MpmCoU"
+        },
+        {
+          "title": "Kubernetes' Architecture Fundamentals",
+          "date": "2017-10-18T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-architecture-fundamentals",
+          "presentationLink": "https://docs.google.com/presentation/d/1wbc5HbCp509xS4X1q72FESrLCcyXoqR2cg-f-cvLO5s/edit#slide=id.g26ff46691a_0_257"
+        },
+        {
+          "title": "KubeCon Austin SIG Cluster Lifecycle Update",
+          "date": "2017-12-06T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubecon-austin-sig-cluster-lifecycle-update",
+          "presentationLink": "https://docs.google.com/presentation/d/1nca3CL9ptbNVf6-bUGITejnFlZ-NoAdiWBPw-LfuQHg/edit"
+        },
+        {
+          "title": "kubeadm Cluster Creation Internals: From Self-Hosting to Upgradability and HA",
+          "date": "2017-12-07T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubeadm-cluster-creation-internals-from-self-hosting-to-upgradability-and-ha",
+          "presentationLink": "https://docs.google.com/presentation/d/1Gp-2blk5WExI_QR59EUZdwfO2BWLJqa626mK2ej-huo/edit#slide=id.p"
+        },
+        {
+          "title": "Winter Update from the Cloud Native World -- CNCF \u0026 Kubernetes Finland Meetup in Helsinki",
+          "date": "2018-02-22T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/winter-update-from-the-cloud-native-world-cncf-and-kubernetes-finland-meetup-in-helsinki"
+        },
+        {
+          "title": "Intro to the essential API resources in Kubernetes",
+          "date": "2018-04-03T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/intro-to-the-essential-api-resources-in-kubernetes",
+          "presentationLink": "https://docs.google.com/presentation/d/1MdeZaOXLg99PiGlW-IKt8aw6nC5ujn6qfl-lUPrXZ58/edit"
+        },
+        {
+          "title": "Kubernetes Finland April 2018 CNCF Update",
+          "date": "2018-04-03T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-finland-april-2018-cncf-update",
+          "presentationLink": "https://docs.google.com/presentation/d/145Dg8_KvIxY011yRgRoL6RcdfVP68EFJqdlyq5vQn4Y/edit#slide=id.g32154a3560_0_23",
+          "meetupLink": "https://www.meetup.com/Kubernetes-Finland/events/248641731/"
+        },
+        {
+          "title": "KubeCon Copenhagen SIG Cluster Lifecycle Intro",
+          "date": "2018-05-02T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubecon-copenhagen-sig-cluster-lifecycle-intro",
+          "presentationLink": "https://docs.google.com/presentation/d/1l5AyGfuUWTDExrSZCf647nbW8f1InjmkoeXNuDoFB4w/edit#slide=id.p",
+          "recording": "https://youtu.be/GmD1KYsRD4Q"
+        },
+        {
+          "title": "What Does “Production Ready” Really Mean for a Kubernetes Cluster?",
+          "date": "2018-05-04T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/what-does-production-ready-really-mean-for-a-kubernetes-cluster",
+          "presentationLink": "https://docs.google.com/presentation/d/1oaBm68OQmz3xW1t5trc0i6MNbaxVpZ_2QN58Nfgelpo/edit#slide=id.p",
+          "recording": "https://youtu.be/EjSiZgGdRqk"
+        },
+        {
+          "title": "Intro to the cloud-native world of Kubernetes -- Updated June 2018",
+          "date": "2018-06-08T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/intro-to-the-cloud-native-world-of-kubernetes-updated-june-2018"
+        },
+        {
+          "title": "Configuring Your Kubernetes Cluster on the Next Level",
+          "date": "2018-11-14T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/configuring-your-kubernetes-cluster-on-the-next-level",
+          "presentationLink": "https://docs.google.com/presentation/d/1F4y-dSX1ciqgpu42PVCH_OASAZjwtQdIHcZRNngPDJg/edit"
+        },
+        {
+          "title": "SIG Cluster Lifecycle Deep Dive - KubeCon China 2018",
+          "date": "2018-11-15T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-deep-dive-kubecon-china-2018"
+        },
+        {
+          "title": "SIG Cluster Lifecycle Intro - KubeCon China 2018",
+          "date": "2018-11-15T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-intro-kubecon-china-2018"
+        },
+        {
+          "title": "Intro to the cloud-native world of Kubernetes -- November 2018",
+          "date": "2018-11-20T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/intro-to-the-cloud-native-world-of-kubernetes-november-2018",
+          "meetupLink": "https://www.meetup.com/Cloud-Native-Northern-Sweden/events/255929396/"
+        },
+        {
+          "title": "Update from the ever-changing Kubernetes landscape -- December 2018",
+          "date": "2018-12-03T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/update-from-the-ever-changing-kubernetes-landscape-december-2018-ac645b18-b457-4d41-8175-426d2ac046c9",
+          "presentationLink": "https://docs.google.com/presentation/d/1gpgmgfg6-CUz1z7wb_ZhZ2W_hG3w0Q03nFyhrRmV9AU/edit"
+        },
+        {
+          "title": "Kubernetes \u0026 CNCF Meetup: Tampere January 2019",
+          "date": "2019-01-17T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-tampere-january-2019",
+          "presentationLink": "https://docs.google.com/presentation/d/1LoMYaz8RGJnIm0udXHvDCsWRgUhMddVmn3HvBncgp4k/edit"
+        },
+        {
+          "title": "Intro to the cloud-native world of Kubernetes -- January 2019",
+          "date": "2019-01-17T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/intro-to-the-cloud-native-world-of-kubernetes-january-2019",
+          "meetupLink": "https://www.meetup.com/Kubernetes-Tampere/events/257164934/"
+        },
+        {
+          "title": "Kubernetes \u0026 CNCF Meetup: Helsinki January 2019",
+          "date": "2019-01-23T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-helsinki-january-2019",
+          "presentationLink": "https://docs.google.com/presentation/d/1iT3rmWQ-Z1IDv3W5eeKzP8m4E7MBf5dHBR1-Ca6U4Ss/edit#slide=id.g4c775a0cfb_1_6"
+        },
+        {
+          "title": "Från TekNatur to Seattle",
+          "date": "2019-02-02T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/fran-teknatur-to-seattle"
+        },
+        {
+          "title": "Update from the cloud-native world of CNCF -- April 2019",
+          "date": "2019-04-04T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/update-from-the-cloud-native-world-of-cncf-april-2019",
+          "presentationLink": "https://docs.google.com/presentation/d/1vnB45H19n_J12fzfeW6yDY8eyiYdy2UEN_fXO0Lgmyo/edit"
+        },
+        {
+          "title": "Kubernetes' Architecture Deep Dive - Umeå May 2019",
+          "date": "2019-05-07T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-architecture-deep-dive-umea-may-2019"
+        },
+        {
+          "title": "What does “production ready” really mean for a Kubernetes cluster? -- Umeå May 2019",
+          "date": "2019-05-07T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/what-does-production-ready-really-mean-for-a-kubernetes-cluster-umea-may-2019",
+          "meetupLink": "https://www.meetup.com/Cloud-Native-Northern-Sweden/events/260276456/"
+        },
+        {
+          "title": "SIG Cluster Lifecycle 20190506 Update",
+          "date": "2019-05-16T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-20190506-update",
+          "presentationLink": "https://docs.google.com/document/d/1VQDIAB0OqiSjIHI8AWMvSdceWhnz56jNpZrLs6o7NJY/edit"
+        },
+        {
+          "title": "Getting Started in the Kubernetes Community",
+          "date": "2019-05-21T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/getting-started-in-the-kubernetes-community"
+        },
+        {
+          "title": "SIG Cluster Lifecycle Intro - KubeCon Barcelona 2019",
+          "date": "2019-05-21T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-intro-kubecon-barcelona-2019"
+        },
+        {
+          "title": "Kubernetes \u0026 CNCF Meetup Helsinki June 2019",
+          "date": "2019-06-11T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-helsinki-june-2019",
+          "presentationLink": "https://docs.google.com/presentation/d/16Tsq-fXGy5aYOX83BUjWZoc7iDNgoPFcyXoLNAoGHDE/edit#slide=id.g597882388f_0_2"
+        },
+        {
+          "title": "Kubernetes \u0026 CNCF Meetup Tampere June 2019",
+          "date": "2019-06-13T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-tampere-june-2019",
+          "presentationLink": "https://docs.google.com/presentation/d/1VlpBvv6Om31eP40vsJPZTiAiYJcg73plniNVfc59kWk/edit#slide=id.g597882388f_0_2"
+        },
+        {
+          "title": "Ignite + Cluster API Aarhus Meetup",
+          "date": "2019-08-21T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/ignite-plus-cluster-api-aarhus-meetup",
+          "presentationLink": "https://docs.google.com/presentation/d/1QF6URiwG2IobuwCBn5WJuBlJfTeVDQM4n2FJUUAq2Bw/edit"
+        },
+        {
+          "title": "Kubernetes \u0026 CNCF Meetup: Helsinki August 2019",
+          "date": "2019-08-27T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-helsinki-august-2019",
+          "presentationLink": "https://docs.google.com/presentation/d/1Awqq61wvJl8Q4tB-nD-tczjE628-QYTYJDLwGxog65E/edit#slide=id.g597882388f_0_2"
+        },
+        {
+          "title": "Ignite + Cluster API Helsinki August Meetup",
+          "date": "2019-08-27T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/ignite-plus-cluster-api-helsinki-august-meetup",
+          "presentationLink": "https://docs.google.com/presentation/d/1EE4bDcsk-WhBb5f0QCgBv8Yy8xWrh-vZZnuemkTGG94/edit#slide=id.g27a78b354c_0_0"
+        },
+        {
+          "title": "Kubernetes \u0026 CNCF Meetup: Tampere August 2019",
+          "date": "2019-08-28T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-tampere-august-2019",
+          "presentationLink": "https://docs.google.com/presentation/d/1fke1am2fEkQt4khFgKjfTthbhHcEa23_dAg2dR02wXo/edit#slide=id.g4c775a0cfb_1_6"
+        },
+        {
+          "title": "Ignite Kubernetes Community Meeting Presentation",
+          "date": "2019-08-29T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/ignite-kubernetes-community-meeting-presentation",
+          "presentationLink": "https://docs.google.com/presentation/d/1sQHGW93t-LnZZFTTAUyPX80oDfoeTcmADiuZR8bnw90/edit"
+        },
+        {
+          "title": "Ignite + Cluster API Helsinki September DevOps Meetup",
+          "date": "2019-09-26T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/ignite-plus-cluster-api-helsinki-september-devops-meetup",
+          "meetupLink": "https://www.meetup.com/devops-finland/events/264689537/"
+        },
+        {
+          "title": "Kubernetes \u0026 CNCF Meetup: Helsinki October 2019",
+          "date": "2019-10-24T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-helsinki-october-2019",
+          "recording": "https://youtu.be/Yxk-mY-V3Vk"
+        },
+        {
+          "title": "Kubernetes Finland Workshop October 2019",
+          "date": "2019-10-29T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-finland-workshop-october-2019",
+          "recording": "https://youtu.be/FcUY7Gv94J8"
+        },
+        {
+          "title": "Kubernetes \u0026 CNCF Meetup -- Turku October 2019",
+          "date": "2019-10-31T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-turku-october-2019",
+          "recording": "https://youtu.be/eyTv2uBL3ag"
+        },
+        {
+          "title": "Intro to the cloud-native world of Kubernetes -- October 2019",
+          "date": "2019-10-31T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/intro-to-the-cloud-native-world-of-kubernetes-october-2019",
+          "recording": "https://youtu.be/eyTv2uBL3ag"
+        },
+        {
+          "title": "Building and Scaling Cloud Native Nordics; Tips, Tricks, and Lessons Learned",
+          "date": "2019-11-21T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/building-and-scaling-cloud-native-nordics-tips-tricks-and-lessons-learned"
+        },
+        {
+          "title": "Kubernetes \u0026 CNCF Meetup: Helsinki November 2019",
+          "date": "2019-11-28T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-helsinki-november-2019",
+          "presentationLink": "https://docs.google.com/presentation/d/1ioEYbVuyNG1hqV7wt6RAY2T1Bof-eVB0I73XeOrPPjU/edit#slide=id.g597882388f_0_2"
+        }
+      ]
+    }
+  ],
+  "company": {
+    "name": "luxas labs",
+    "id": "FI29771562",
+    "email": "lucas@luxaslabs.com",
+    "solutions": [
+      {
+        "name": "Kubernetes \u0026 Cloud Native Expert Consulting",
+        "description": "Do you have questions around Kubernetes and/or Cloud Native?\nI can help in many different ways with getting up to speed\nwith Kubernetes, solving problems, and doing architecture reviews.\n"
+      },
+      {
+        "name": "Kubernetes Workshops",
+        "description": "Want to get started with Kubernetes? Or do you need a\ndeep-dive into how it works and make the most of it? Then\npractical full- or half-day workshops is the right fit!\n"
+      }
+    ],
+    "partners": null,
+    "projects": null
+  },
+  "blogPosts": [
+    {
+      "name": "A Stronger Foundation for Creating and Managing Kubernetes Clusters",
+      "authors": [
+        "Lucas Käldström"
+      ],
+      "date": "2017-01-12T00:00:00Z",
+      "sourceLink": "https://kubernetes.io/blog/2017/01/stronger-foundation-for-creating-and-managing-kubernetes-clusters/"
+    },
+    {
+      "name": "kubeadm v1.8 Released: Introducing Easy Upgrades for Kubernetes clusters",
+      "authors": [
+        "Lucas Käldström"
+      ],
+      "date": "2017-10-25T00:00:00Z",
+      "sourceLink": "https://kubernetes.io/blog/2017/10/kubeadm-v18-released/"
+    },
+    {
+      "name": "Production-Ready Kubernetes Cluster Creation with kubeadm",
+      "authors": [
+        "Lucas Käldström",
+        "Luc Perkins"
+      ],
+      "date": "2018-12-04T00:00:00Z",
+      "sourceLink": "https://kubernetes.io/blog/2018/12/04/production-ready-kubernetes-cluster-creation-with-kubeadm/"
+    },
+    {
+      "name": "Automated High Availability in kubeadm v1.15: Batteries Included But Swappable",
+      "authors": [
+        "Lucas Käldström",
+        "Fabrizio Pandini"
+      ],
+      "date": "2019-06-24T00:00:00Z",
+      "sourceLink": "https://kubernetes.io/blog/2019/06/24/automated-high-availability-in-kubeadm-v1.15-batteries-included-but-swappable/"
+    },
+    {
+      "name": "Kubernetes High Availability: No Single Point of Failure",
+      "authors": [
+        "Lucas Käldström",
+        "Joab Jackson"
+      ],
+      "date": "2018-04-10T00:00:00Z",
+      "sourceLink": "https://thenewstack.io/kubernetes-high-availability-no-single-point-of-failure/"
+    },
+    {
+      "name": "Fire Up Your VMs with Weave Ignite",
+      "authors": [
+        "Lucas Käldström",
+        "Alexis Richardson"
+      ],
+      "date": "2019-07-10T00:00:00Z",
+      "sourceLink": "https://www.weave.works/blog/fire-up-your-vms-with-weave-ignite"
+    },
+    {
+      "name": "Weave Ignite blazing a trail",
+      "authors": [
+        "Lucas Käldström",
+        "Daniel Holbach"
+      ],
+      "date": "2019-09-03T00:00:00Z",
+      "sourceLink": "https://www.weave.works/blog/weave-ignite-blazing-a-trail"
+    },
+    {
+      "name": "What Does “Production Ready” Really Mean for a Kubernetes Cluster?",
+      "authors": [
+        "Lucas Käldström",
+        "Cezzaine Zaher"
+      ],
+      "date": "2018-05-17T00:00:00Z",
+      "sourceLink": "https://www.weave.works/blog/what-does-production-ready-really-mean-for-a-kubernetes-cluster"
+    },
+    {
+      "name": "Kops vs. Kubeadm: What’s the difference?",
+      "authors": [
+        "Lucas Käldström",
+        "Anita Buehrle",
+        "Chris Love"
+      ],
+      "date": "2018-02-27T00:00:00Z",
+      "sourceLink": "https://www.weave.works/blog/kops-vs-kubeadm"
+    },
+    {
+      "name": "Weave Cloud and The Future of K8s: A Simplified Kubernetes Installation",
+      "authors": [
+        "Lucas Käldström"
+      ],
+      "date": "2017-03-14T00:00:00Z",
+      "sourceLink": "https://www.weave.works/blog/k8s-future-simplified-kubernetes-installation/"
+    },
+    {
+      "name": "Kubernetes on Raspberry Pi: Challenges \u0026 Advantages",
+      "authors": [
+        "Lucas Käldström",
+        "Sonja Schweigert"
+      ],
+      "date": "2017-03-07T00:00:00Z",
+      "sourceLink": "https://www.weave.works/blog/kubernetes-raspberry-pi/"
+    },
+    {
+      "name": "Running Highly Available Clusters with Kubeadm",
+      "authors": [
+        "Lucas Käldström",
+        "Anita Buehrle"
+      ],
+      "date": "2019-08-29T00:00:00Z",
+      "sourceLink": "https://www.weave.works/blog/running-highly-available-clusters-with-kubeadm"
+    },
+    {
+      "name": "How to deploy Kubernetes on the Raspberry Pi",
+      "authors": [
+        "Lucas Käldström"
+      ],
+      "date": "2017-03-21T00:00:00Z",
+      "sourceLink": "https://opensource.com/article/17/3/kubernetes-raspberry-pi"
+    },
+    {
+      "name": "Setup Kubernetes on a Raspberry Pi Cluster easily the official way!",
+      "authors": [
+        "Lucas Käldström"
+      ],
+      "date": "2017-01-11T00:00:00Z",
+      "sourceLink": "https://blog.hypriot.com/post/setup-kubernetes-raspberry-pi-cluster/"
+    },
+    {
+      "name": "Diversity Scholarship Series: My Programming Journey – Becoming a Kubernetes Maintainer",
+      "authors": [
+        "Lucas Käldström"
+      ],
+      "date": "2016-11-29T00:00:00Z",
+      "sourceLink": "https://www.cncf.io/blog/2016/11/29/diversity-scholarship-series-programming-journey-becoming-kubernetes-maintainer/"
+    }
+  ]
+}
