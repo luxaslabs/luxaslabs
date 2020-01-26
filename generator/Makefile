@@ -3,8 +3,7 @@ run: build
 	bin/generator
 
 build:
-	go build -o bin/generator -mod=vendor .
+	go build -o bin/generator .
 
 tidy:
 	go mod tidy
-	go mod vendor
