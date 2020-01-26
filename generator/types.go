@@ -17,25 +17,25 @@ func NewURL(u string) *URL {
 type URL string
 
 type Site struct {
-	Persons   []Person `json:"persons"`
-	Company   Company `json:"company"`
+	Persons   []Person   `json:"persons"`
+	Company   Company    `json:"company"`
 	BlogPosts []BlogPost `json:"blogPosts"`
 }
 
 type BlogPost struct {
-	Name       string `json:"name"`
-	Authors     []string `json:"authors"`
-	Date time.Time `json:"date"`
-	SourceLink URL `json:"sourceLink"`
+	Name       string    `json:"name"`
+	Authors    []string  `json:"authors"`
+	Date       time.Time `json:"date"`
+	SourceLink URL       `json:"sourceLink"`
 }
 
 type Company struct {
-	Name      string `json:"name"`
-	ID        string `json:"id"`
-	Email     string `json:"email"`
+	Name      string     `json:"name"`
+	ID        string     `json:"id"`
+	Email     string     `json:"email"`
 	Solutions []Solution `json:"solutions"`
-	Partners  []Company `json:"partners"`
-	Projects  []Project `json:"projects"`
+	Partners  []Company  `json:"partners"`
+	Projects  []Project  `json:"projects"`
 }
 
 type Solution struct {
@@ -44,20 +44,20 @@ type Solution struct {
 }
 
 type Project struct {
-	Name        string `json:"name"`
-	Description string `json:"description"`
+	Name        string    `json:"name"`
+	Description string    `json:"description"`
 	StartDate   time.Time `json:"startDate"`
 	EndDate     time.Time `json:"endDate"`
 }
 
 type Person struct {
-	Name           string `json:"name"`
-	Email          string `json:"email`
-	Biography      string `json:"biography"`
-	SocialMedia    SocialMedia `json:"socialMedia"`
+	Name           string          `json:"name"`
+	Email          string          `json:"email`
+	Biography      string          `json:"biography"`
+	SocialMedia    SocialMedia     `json:"socialMedia"`
 	Certifications []Certification `json:"certifications"`
-	Positions      []Position `json:"positions"`
-	Presentations  Presentations `json:"presentations"`
+	Positions      []Position      `json:"positions"`
+	Presentations  Presentations   `json:"presentations"`
 }
 
 type Presentations []Presentation
@@ -75,41 +75,41 @@ func (p Presentations) Swap(i, j int) {
 }
 
 type Presentation struct {
-	Title            string `json:"title"`
+	Title            string    `json:"title"`
 	Date             time.Time `json:"date"`
-	SpeakerdeckLink  *URL `json:"speakerdeckLink"`
-	PresentationLink *URL `json:"presentationLink,omitempty"`
-	MeetupLink       *URL `json:"meetupLink,omitempty"`
-	Recording        *URL `json:"recording,omitempty"`
+	SpeakerdeckLink  *URL      `json:"speakerdeckLink"`
+	PresentationLink *URL      `json:"presentationLink,omitempty"`
+	MeetupLink       *URL      `json:"meetupLink,omitempty"`
+	Recording        *URL      `json:"recording,omitempty"`
 	Location         *Location `json:"location,omitempty"`
 }
 
 type Location struct {
-	Name      string `json:"name"`
+	Name      string  `json:"name"`
 	Latitude  float64 `json:"latitude"`
 	Longitude float64 `json:"longitude`
 }
 
 type SocialMedia struct {
-	Github      string `json:"github"`
-	Twitter     string `json:"twitter`
-	SpeakerDeck string `json:"speakerdeck"`
-	LinkedIn    string `json:"linkedin`
+	Github      string            `json:"github"`
+	Twitter     string            `json:"twitter`
+	SpeakerDeck string            `json:"speakerdeck"`
+	LinkedIn    string            `json:"linkedin`
 	Slack       map[string]string `json:"slack`
 }
 
 type Certification struct {
 	Name        string `json:"name"`
-	Short string `json:"short"`
+	Short       string `json:"short"`
 	Description string `json:"description"`
 	Issuer      string `json:"issuer"`
-	AcclaimLink *URL `json:"acclaimLink"`
+	AcclaimLink *URL   `json:"acclaimLink"`
 }
 
 type Position struct {
-	Title        string `json:"title"`
-	Description  string `json:"description"`
-	Organization string `json:"organization"`
+	Title        string     `json:"title"`
+	Description  string     `json:"description"`
+	Organization string     `json:"organization"`
 	StartDate    *time.Time `json:"startDate"`
 	EndDate      *time.Time `json:"endDate"`
 }
