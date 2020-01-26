@@ -11,6 +11,7 @@ require (
 	github.com/gocolly/colly v1.2.0
 	github.com/kennygrant/sanitize v1.2.4 // indirect
 	github.com/saintfish/chardet v0.0.0-20120816061221-3af4cd4741ca // indirect
+	github.com/sirupsen/logrus v1.4.2
 	github.com/temoto/robotstxt v1.1.1 // indirect
 	golang.org/x/net v0.0.0-20191003171128-d98b1b443823 // indirect
 	google.golang.org/appengine v1.6.4 // indirect
