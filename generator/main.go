@@ -43,6 +43,7 @@ func run() error {
 			p := Presentation{}
 			p.Title = talk.Title
 			p.Date = talk.Date
+			p.SpeakerdeckID = talk.DataID
 			p.SpeakerdeckLink = NewURL(talk.Link.String())
 			for domain, extraLink := range talk.ExtraLinks {
 				if strings.Contains(domain, "meetup.com") {

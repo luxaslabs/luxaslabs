@@ -78,6 +78,7 @@ type Presentation struct {
 	Title            string    `json:"title"`
 	Date             time.Time `json:"date"`
 	SpeakerdeckLink  *URL      `json:"speakerdeckLink"`
+	SpeakerdeckID    string    `json:"speakerdeckID"`
 	PresentationLink *URL      `json:"presentationLink,omitempty"`
 	MeetupLink       *URL      `json:"meetupLink,omitempty"`
 	Recording        *URL      `json:"recording,omitempty"`

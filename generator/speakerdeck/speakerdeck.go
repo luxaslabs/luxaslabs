@@ -62,6 +62,7 @@ func NewUserPageScraper() *UserPageScraper {
 	userPageScraper := &UserPageScraper{NewBaseScraper("UserPageScraper"), NewTalkPageScraper(), nil}
 	userPageScraper.RegisterHook(".sd-main h1.m-0", userPageScraper.onName)
 	userPageScraper.RegisterHook(".container a[href][title]", userPageScraper.onTalkLink)
+	//	userPageScraper.RegisterHook(".container a > div[data-id]", userPageScraper.onDataID)
 	userPageScraper.RegisterHook(".next .page-link[rel='next']", userPageScraper.onNextPage)
 	return userPageScraper
 }
@@ -81,6 +82,9 @@ func (s *UserPageScraper) onTalkLink(e *colly.HTMLElement) error {
 	if err != nil {
 		return err
 	}
+
+	// Get the data-id attr used for embedding
+	talk.DataID = e.ChildAttr("div[data-id]", "data-id")
 
 	s.currentUser.Talks = append(s.currentUser.Talks, *talk)
 	return nil

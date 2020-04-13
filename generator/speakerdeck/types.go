@@ -22,6 +22,7 @@ type Talk struct {
 	Date       time.Time          `json:"date"`
 	Link       url.URL            `json:"link"`
 	ExtraLinks map[string]url.URL `json:"extraLinks"`
+	DataID     string             `json:"dataID"`
 	//Location   *Location          `json:"location,omitempty"`
 }
 
