@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -9,8 +10,12 @@ import (
 	"strings"
 
 	"github.com/luxaslabs/luxaslabs/generator/speakerdeck"
+	"github.com/luxaslabs/luxaslabs/generator/speakerdeck/location"
+	log "github.com/sirupsen/logrus"
 	"sigs.k8s.io/yaml"
 )
+
+var mapsAPIKey = flag.String("maps-api-key", "", "Google Maps API key with the Geocoding API usage set")
 
 func main() {
 	if err := run(); err != nil {
@@ -30,21 +35,45 @@ func run() error {
 		return err
 	}
 
-	scraper := speakerdeck.NewUserPageScraper()
+	us := speakerdeck.NewUserScraper()
+
+	// Enable geolocation if we've got an API key
+	if len(*mapsAPIKey) != 0 {
+		locext, err := location.NewLocationExtension(*mapsAPIKey)
+		if err != nil {
+			return err
+		}
+		if err := us.AddExtension(locext); err != nil {
+			return err
+		}
+	}
 
 	for i, _ := range site.Persons {
 
-		sdUser, err := scraper.Scrape("luxas")
+		sdUser, err := us.ScrapeUser("luxas")
 		if err != nil {
 			return err
 		}
 
 		for _, talk := range sdUser.Talks {
+			if talk.Hide {
+				log.Infof("Hiding presentation %s", talk.Title)
+				continue
+			}
+
 			p := Presentation{}
 			p.Title = talk.Title
 			p.Date = talk.Date
 			p.SpeakerdeckID = talk.DataID
 			p.SpeakerdeckLink = NewURL(talk.Link.String())
+			if talk.Location != nil {
+				p.Location = &Location{
+					Address:   talk.Location.RequestedAddress,
+					Latitude:  talk.Location.Lat,
+					Longitude: talk.Location.Lng,
+				}
+			}
+
 			for domain, extraLink := range talk.ExtraLinks {
 				if strings.Contains(domain, "meetup.com") {
 					p.MeetupLink = NewURL(extraLink.String())

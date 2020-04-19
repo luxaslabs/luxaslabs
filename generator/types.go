@@ -86,9 +86,9 @@ type Presentation struct {
 }
 
 type Location struct {
-	Name      string  `json:"name"`
-	Latitude  float64 `json:"latitude"`
-	Longitude float64 `json:"longitude`
+	Address   string  `json:"address"`
+	Latitude  float64 `json:"latitude,omitempty"`
+	Longitude float64 `json:"longitude,omitempty"`
 }
 
 type SocialMedia struct {
