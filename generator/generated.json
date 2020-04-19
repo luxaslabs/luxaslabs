@@ -74,281 +74,394 @@
           "date": "2017-03-24T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/intel-and-arm-let-kubernetes-rule-them-all",
           "speakerdeckID": "8784109785464090a555638db741f514",
-          "recording": "https://youtu.be/MxeVwAbRbDM"
+          "recording": "https://youtu.be/MxeVwAbRbDM",
+          "location": {
+            "address": "Bochum, Germany",
+            "latitude": 51.4818445,
+            "longitude": 7.216236299999999
+          }
         },
         {
           "title": "Autoscaling a multi-platform Kubernetes cluster built with kubeadm",
           "date": "2017-03-30T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/autoscaling-a-multi-platform-kubernetes-cluster-built-with-kubeadm",
           "speakerdeckID": "b6dcbce120dd4e3883fc88ad5ed60091",
-          "recording": "https://youtu.be/ZdzKQwMjg2w"
+          "recording": "https://youtu.be/ZdzKQwMjg2w",
+          "location": {
+            "address": "bcc Berlin Congress Center GmbH, Alexanderstraße, Berlin, Germany",
+            "latitude": 52.5206375,
+            "longitude": 13.4159899
+          }
         },
         {
           "title": "Intro to the cloud-native world of Kubernetes -- Helsinki October meetup",
           "date": "2017-10-04T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/intro-to-the-cloud-native-world-of-kubernetes-helsinki-october-meetup",
           "speakerdeckID": "967a7891864f4f729d3440cda6e8a6a8",
-          "recording": "https://youtu.be/9Oc69MpmCoU"
+          "recording": "https://youtu.be/9Oc69MpmCoU",
+          "location": {
+            "address": "UpCloud Oy, Helsinki, Finland",
+            "latitude": 60.16590420000001,
+            "longitude": 24.9522998
+          }
         },
         {
           "title": "Kubernetes' Architecture Fundamentals",
           "date": "2017-10-18T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-architecture-fundamentals",
           "speakerdeckID": "dfc11d3f7bd14437a6fd453afaa95ad9",
-          "presentationLink": "https://docs.google.com/presentation/d/1wbc5HbCp509xS4X1q72FESrLCcyXoqR2cg-f-cvLO5s/edit#slide=id.g26ff46691a_0_257"
+          "presentationLink": "https://docs.google.com/presentation/d/1wbc5HbCp509xS4X1q72FESrLCcyXoqR2cg-f-cvLO5s/edit#slide=id.g26ff46691a_0_257",
+          "location": {
+            "address": "London, United Kingdom",
+            "latitude": 51.5073509,
+            "longitude": -0.1277583
+          }
         },
         {
           "title": "KubeCon Austin SIG Cluster Lifecycle Update",
           "date": "2017-12-06T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/kubecon-austin-sig-cluster-lifecycle-update",
           "speakerdeckID": "85246dde9b0b494c9573bf0d199e3cdd",
-          "presentationLink": "https://docs.google.com/presentation/d/1nca3CL9ptbNVf6-bUGITejnFlZ-NoAdiWBPw-LfuQHg/edit"
+          "presentationLink": "https://docs.google.com/presentation/d/1nca3CL9ptbNVf6-bUGITejnFlZ-NoAdiWBPw-LfuQHg/edit",
+          "location": {
+            "address": "Austin Convention Center, Austin, TX",
+            "latitude": 30.2636608,
+            "longitude": -97.739615
+          }
         },
         {
           "title": "kubeadm Cluster Creation Internals: From Self-Hosting to Upgradability and HA",
           "date": "2017-12-07T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/kubeadm-cluster-creation-internals-from-self-hosting-to-upgradability-and-ha",
           "speakerdeckID": "80f559f9ad9049ea859c0f1ed369225b",
-          "presentationLink": "https://docs.google.com/presentation/d/1Gp-2blk5WExI_QR59EUZdwfO2BWLJqa626mK2ej-huo/edit#slide=id.p"
+          "presentationLink": "https://docs.google.com/presentation/d/1Gp-2blk5WExI_QR59EUZdwfO2BWLJqa626mK2ej-huo/edit#slide=id.p",
+          "location": {
+            "address": "Austin Convention Center, Austin, TX",
+            "latitude": 30.2636608,
+            "longitude": -97.739615
+          }
         },
         {
           "title": "Winter Update from the Cloud Native World -- CNCF \u0026 Kubernetes Finland Meetup in Helsinki",
           "date": "2018-02-22T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/winter-update-from-the-cloud-native-world-cncf-and-kubernetes-finland-meetup-in-helsinki",
-          "speakerdeckID": "03e9c74d7b4c4f58b65ab559fd46447e"
+          "speakerdeckID": "03e9c74d7b4c4f58b65ab559fd46447e",
+          "presentationLink": "https://docs.google.com/presentation/d/1lSB9nT3m73_Uos9RkSIIDVLl8wSajpOhiRkL59TlKp0/edit",
+          "location": {
+            "address": "Maria 01, Helsinki, Finland",
+            "latitude": 60.16714510000001,
+            "longitude": 24.9216967
+          }
         },
         {
           "title": "Intro to the essential API resources in Kubernetes",
           "date": "2018-04-03T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/intro-to-the-essential-api-resources-in-kubernetes",
           "speakerdeckID": "d62ae31f167a49669d0a2e6deac40a56",
-          "presentationLink": "https://docs.google.com/presentation/d/1MdeZaOXLg99PiGlW-IKt8aw6nC5ujn6qfl-lUPrXZ58/edit"
-        },
-        {
-          "title": "Kubernetes Finland April 2018 CNCF Update",
-          "date": "2018-04-03T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-finland-april-2018-cncf-update",
-          "speakerdeckID": "b3765c84c0c34ac88012d77cdecbe7a7",
-          "presentationLink": "https://docs.google.com/presentation/d/145Dg8_KvIxY011yRgRoL6RcdfVP68EFJqdlyq5vQn4Y/edit#slide=id.g32154a3560_0_23",
-          "meetupLink": "https://www.meetup.com/Kubernetes-Finland/events/248641731/"
+          "presentationLink": "https://docs.google.com/presentation/d/1MdeZaOXLg99PiGlW-IKt8aw6nC5ujn6qfl-lUPrXZ58/edit",
+          "location": {
+            "address": "Maria 01, Helsinki, Finland",
+            "latitude": 60.16714510000001,
+            "longitude": 24.9216967
+          }
         },
         {
           "title": "KubeCon Copenhagen SIG Cluster Lifecycle Intro",
           "date": "2018-05-02T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/kubecon-copenhagen-sig-cluster-lifecycle-intro",
           "speakerdeckID": "13854f753a25414d819dbef8df67eabb",
-          "presentationLink": "https://docs.google.com/presentation/d/1l5AyGfuUWTDExrSZCf647nbW8f1InjmkoeXNuDoFB4w/edit#slide=id.p",
-          "recording": "https://youtu.be/GmD1KYsRD4Q"
+          "recording": "https://youtu.be/GmD1KYsRD4Q",
+          "location": {
+            "address": "Bella Center, Copenhagen, Denmark",
+            "latitude": 55.6375,
+            "longitude": 12.5786111
+          }
         },
         {
           "title": "What Does “Production Ready” Really Mean for a Kubernetes Cluster?",
           "date": "2018-05-04T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/what-does-production-ready-really-mean-for-a-kubernetes-cluster",
           "speakerdeckID": "e1ba42acded44b3c8f7c6ec047142372",
-          "presentationLink": "https://docs.google.com/presentation/d/1oaBm68OQmz3xW1t5trc0i6MNbaxVpZ_2QN58Nfgelpo/edit#slide=id.p",
-          "recording": "https://youtu.be/EjSiZgGdRqk"
+          "recording": "https://youtu.be/EjSiZgGdRqk",
+          "location": {
+            "address": "Bella Center, Copenhagen, Denmark",
+            "latitude": 55.6375,
+            "longitude": 12.5786111
+          }
         },
         {
           "title": "Intro to the cloud-native world of Kubernetes -- Updated June 2018",
           "date": "2018-06-08T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/intro-to-the-cloud-native-world-of-kubernetes-updated-june-2018",
-          "speakerdeckID": "7efe7fb6b7984cfb862a7e1962d48251"
+          "speakerdeckID": "7efe7fb6b7984cfb862a7e1962d48251",
+          "location": {
+            "address": "IN2P3 Computing Center, Lyon, France",
+            "latitude": 45.78266989999999,
+            "longitude": 4.865279
+          }
         },
         {
           "title": "Configuring Your Kubernetes Cluster on the Next Level",
           "date": "2018-11-14T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/configuring-your-kubernetes-cluster-on-the-next-level",
           "speakerdeckID": "05b34dbbfc124e87bdfff721098bfd42",
-          "presentationLink": "https://docs.google.com/presentation/d/1F4y-dSX1ciqgpu42PVCH_OASAZjwtQdIHcZRNngPDJg/edit"
+          "presentationLink": "https://docs.google.com/presentation/d/1F4y-dSX1ciqgpu42PVCH_OASAZjwtQdIHcZRNngPDJg/edit",
+          "location": {
+            "address": "Shanghai International Sourcing Center, Putuo, Shanghai, China",
+            "latitude": 31.2215177,
+            "longitude": 121.3921292
+          }
         },
         {
           "title": "SIG Cluster Lifecycle Deep Dive - KubeCon China 2018",
           "date": "2018-11-15T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-deep-dive-kubecon-china-2018",
-          "speakerdeckID": "100c59c3b9da4abb8cb6e349360cff9f"
+          "speakerdeckID": "100c59c3b9da4abb8cb6e349360cff9f",
+          "location": {
+            "address": "Shanghai International Sourcing Center, Putuo, Shanghai, China",
+            "latitude": 31.2215177,
+            "longitude": 121.3921292
+          }
         },
         {
           "title": "SIG Cluster Lifecycle Intro - KubeCon China 2018",
           "date": "2018-11-15T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-intro-kubecon-china-2018",
-          "speakerdeckID": "65966a77a2a740df8410376c16981af8"
+          "speakerdeckID": "65966a77a2a740df8410376c16981af8",
+          "location": {
+            "address": "Shanghai International Sourcing Center, Putuo, Shanghai, China",
+            "latitude": 31.2215177,
+            "longitude": 121.3921292
+          }
         },
         {
           "title": "Intro to the cloud-native world of Kubernetes -- November 2018",
           "date": "2018-11-20T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/intro-to-the-cloud-native-world-of-kubernetes-november-2018",
           "speakerdeckID": "e915fd3c933b4c79a0010b162ba18ae6",
-          "meetupLink": "https://www.meetup.com/Cloud-Native-Northern-Sweden/events/255929396/"
+          "meetupLink": "https://www.meetup.com/Cloud-Native-Northern-Sweden/events/255929396/",
+          "location": {
+            "address": "Online"
+          }
         },
         {
           "title": "Update from the ever-changing Kubernetes landscape -- December 2018",
           "date": "2018-12-03T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/update-from-the-ever-changing-kubernetes-landscape-december-2018-ac645b18-b457-4d41-8175-426d2ac046c9",
           "speakerdeckID": "d889d5f9817546858a72e200d01e3812",
-          "presentationLink": "https://docs.google.com/presentation/d/1gpgmgfg6-CUz1z7wb_ZhZ2W_hG3w0Q03nFyhrRmV9AU/edit"
-        },
-        {
-          "title": "Kubernetes \u0026 CNCF Meetup: Tampere January 2019",
-          "date": "2019-01-17T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-tampere-january-2019",
-          "speakerdeckID": "6615eb43241f41c29a4cd3fa6f4f99f1",
-          "presentationLink": "https://docs.google.com/presentation/d/1LoMYaz8RGJnIm0udXHvDCsWRgUhMddVmn3HvBncgp4k/edit"
+          "presentationLink": "https://docs.google.com/presentation/d/1gpgmgfg6-CUz1z7wb_ZhZ2W_hG3w0Q03nFyhrRmV9AU/edit",
+          "location": {
+            "address": "Tuxera Inc, Espoo, Finland",
+            "latitude": 60.1678919,
+            "longitude": 24.8061895
+          }
         },
         {
           "title": "Intro to the cloud-native world of Kubernetes -- January 2019",
           "date": "2019-01-17T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/intro-to-the-cloud-native-world-of-kubernetes-january-2019",
           "speakerdeckID": "c9be5eba214d42b7b4d2e90b7f0e61f0",
-          "meetupLink": "https://www.meetup.com/Kubernetes-Tampere/events/257164934/"
+          "meetupLink": "https://www.meetup.com/Kubernetes-Tampere/events/257164934/",
+          "location": {
+            "address": "Cybercom, Tampere, Finland",
+            "latitude": 61.49778809999999,
+            "longitude": 23.7759384
+          }
         },
         {
           "title": "Kubernetes \u0026 CNCF Meetup: Helsinki January 2019",
           "date": "2019-01-23T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-helsinki-january-2019",
           "speakerdeckID": "321db5ad0e7b4643b4456851701c279b",
-          "presentationLink": "https://docs.google.com/presentation/d/1iT3rmWQ-Z1IDv3W5eeKzP8m4E7MBf5dHBR1-Ca6U4Ss/edit#slide=id.g4c775a0cfb_1_6"
+          "presentationLink": "https://docs.google.com/presentation/d/1iT3rmWQ-Z1IDv3W5eeKzP8m4E7MBf5dHBR1-Ca6U4Ss/edit#slide=id.g4c775a0cfb_1_6",
+          "location": {
+            "address": "Accenture Liquid Studio, Helsinki, Finland",
+            "latitude": 60.16881249999999,
+            "longitude": 24.9453007
+          }
         },
         {
           "title": "Från TekNatur to Seattle",
           "date": "2019-02-02T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/fran-teknatur-to-seattle",
-          "speakerdeckID": "ad46e8e4090e48b2a15be2107b90afb0"
+          "speakerdeckID": "ad46e8e4090e48b2a15be2107b90afb0",
+          "location": {
+            "address": "Arcada University of Applied Sciences, Jan-Magnus Janssons plats, Helsinki, Finland",
+            "latitude": 60.2015993,
+            "longitude": 24.965514
+          }
         },
         {
           "title": "Update from the cloud-native world of CNCF -- April 2019",
           "date": "2019-04-04T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/update-from-the-cloud-native-world-of-cncf-april-2019",
           "speakerdeckID": "7b16e0e20a99490b9d033d96dc6ca94d",
-          "presentationLink": "https://docs.google.com/presentation/d/1vnB45H19n_J12fzfeW6yDY8eyiYdy2UEN_fXO0Lgmyo/edit"
+          "presentationLink": "https://docs.google.com/presentation/d/1vnB45H19n_J12fzfeW6yDY8eyiYdy2UEN_fXO0Lgmyo/edit",
+          "location": {
+            "address": "Netum Oy, Yliopistonkatu, Tampere, Finland",
+            "latitude": 61.4955236,
+            "longitude": 23.7793655
+          }
         },
         {
           "title": "Kubernetes' Architecture Deep Dive - Umeå May 2019",
           "date": "2019-05-07T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-architecture-deep-dive-umea-may-2019",
-          "speakerdeckID": "a4b9e50e7a9e4df9a1f3d2398b374287"
+          "speakerdeckID": "a4b9e50e7a9e4df9a1f3d2398b374287",
+          "location": {
+            "address": "Umeå University, Dept. Of Computing Science, Umeå, Sweden",
+            "latitude": 63.8204575,
+            "longitude": 20.3074306
+          }
         },
         {
           "title": "What does “production ready” really mean for a Kubernetes cluster? -- Umeå May 2019",
           "date": "2019-05-07T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/what-does-production-ready-really-mean-for-a-kubernetes-cluster-umea-may-2019",
           "speakerdeckID": "bbcfb38eef2a4d3686db6a41cf0ea997",
-          "meetupLink": "https://www.meetup.com/Cloud-Native-Northern-Sweden/events/260276456/"
+          "meetupLink": "https://www.meetup.com/Cloud-Native-Northern-Sweden/events/260276456/",
+          "location": {
+            "address": "XLENT Norr, Umeå, Sweden",
+            "latitude": 63.8261459,
+            "longitude": 20.2564922
+          }
         },
         {
           "title": "SIG Cluster Lifecycle 20190506 Update",
           "date": "2019-05-16T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-20190506-update",
           "speakerdeckID": "f8aef43bb6014a4589b1818a3aab8ba4",
-          "presentationLink": "https://docs.google.com/document/d/1VQDIAB0OqiSjIHI8AWMvSdceWhnz56jNpZrLs6o7NJY/edit"
-        },
-        {
-          "title": "Getting Started in the Kubernetes Community",
-          "date": "2019-05-21T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/getting-started-in-the-kubernetes-community",
-          "speakerdeckID": "6816e10f104a44cebb0915b392cadd2d"
+          "presentationLink": "https://docs.google.com/document/d/1VQDIAB0OqiSjIHI8AWMvSdceWhnz56jNpZrLs6o7NJY/edit",
+          "location": {
+            "address": "Online"
+          }
         },
         {
           "title": "SIG Cluster Lifecycle Intro - KubeCon Barcelona 2019",
           "date": "2019-05-21T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-intro-kubecon-barcelona-2019",
-          "speakerdeckID": "d0ad63078616494da51c54214c03ced3"
+          "speakerdeckID": "d0ad63078616494da51c54214c03ced3",
+          "location": {
+            "address": "Fira Gran Via, Av. Joan Carles I, Barcelona, Spain",
+            "latitude": 41.3546878,
+            "longitude": 2.1277339
+          }
         },
         {
-          "title": "Kubernetes \u0026 CNCF Meetup Helsinki June 2019",
-          "date": "2019-06-11T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-helsinki-june-2019",
-          "speakerdeckID": "690f1b1ca572445b90fc7839e0ab43a9",
-          "presentationLink": "https://docs.google.com/presentation/d/16Tsq-fXGy5aYOX83BUjWZoc7iDNgoPFcyXoLNAoGHDE/edit#slide=id.g597882388f_0_2"
-        },
-        {
-          "title": "Kubernetes \u0026 CNCF Meetup Tampere June 2019",
-          "date": "2019-06-13T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-tampere-june-2019",
-          "speakerdeckID": "f6395a8f12af432f9c65c9da521c1bb8",
-          "presentationLink": "https://docs.google.com/presentation/d/1VlpBvv6Om31eP40vsJPZTiAiYJcg73plniNVfc59kWk/edit#slide=id.g597882388f_0_2"
+          "title": "Getting Started in the Kubernetes Community",
+          "date": "2019-05-21T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/getting-started-in-the-kubernetes-community",
+          "speakerdeckID": "6816e10f104a44cebb0915b392cadd2d",
+          "location": {
+            "address": "Fira Gran Via, Av. Joan Carles I, Barcelona, Spain",
+            "latitude": 41.3546878,
+            "longitude": 2.1277339
+          }
         },
         {
           "title": "Ignite + Cluster API Aarhus Meetup",
           "date": "2019-08-21T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/ignite-plus-cluster-api-aarhus-meetup",
           "speakerdeckID": "6cffbfa1e7a54c9e9609325b286bf35d",
-          "presentationLink": "https://docs.google.com/presentation/d/1QF6URiwG2IobuwCBn5WJuBlJfTeVDQM4n2FJUUAq2Bw/edit"
-        },
-        {
-          "title": "Kubernetes \u0026 CNCF Meetup: Helsinki August 2019",
-          "date": "2019-08-27T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-helsinki-august-2019",
-          "speakerdeckID": "b7f9f1b916214cbc86146f7f005c1212",
-          "presentationLink": "https://docs.google.com/presentation/d/1Awqq61wvJl8Q4tB-nD-tczjE628-QYTYJDLwGxog65E/edit#slide=id.g597882388f_0_2"
+          "presentationLink": "https://docs.google.com/presentation/d/1QF6URiwG2IobuwCBn5WJuBlJfTeVDQM4n2FJUUAq2Bw/edit",
+          "location": {
+            "address": "ORBIT Lab, Aarhus, Denmark",
+            "latitude": 56.172545,
+            "longitude": 10.191306
+          }
         },
         {
           "title": "Ignite + Cluster API Helsinki August Meetup",
           "date": "2019-08-27T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/ignite-plus-cluster-api-helsinki-august-meetup",
           "speakerdeckID": "0beaec693e104f73877378f6f34acd85",
-          "presentationLink": "https://docs.google.com/presentation/d/1EE4bDcsk-WhBb5f0QCgBv8Yy8xWrh-vZZnuemkTGG94/edit#slide=id.g27a78b354c_0_0"
-        },
-        {
-          "title": "Kubernetes \u0026 CNCF Meetup: Tampere August 2019",
-          "date": "2019-08-28T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-tampere-august-2019",
-          "speakerdeckID": "72092a3df77341bf964b3e339cdbfc6b",
-          "presentationLink": "https://docs.google.com/presentation/d/1fke1am2fEkQt4khFgKjfTthbhHcEa23_dAg2dR02wXo/edit#slide=id.g4c775a0cfb_1_6"
+          "presentationLink": "https://docs.google.com/presentation/d/1EE4bDcsk-WhBb5f0QCgBv8Yy8xWrh-vZZnuemkTGG94/edit#slide=id.g27a78b354c_0_0",
+          "location": {
+            "address": "Maria 01, Helsinki, Finland",
+            "latitude": 60.16714510000001,
+            "longitude": 24.9216967
+          }
         },
         {
           "title": "Ignite Kubernetes Community Meeting Presentation",
           "date": "2019-08-29T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/ignite-kubernetes-community-meeting-presentation",
           "speakerdeckID": "be3a18f260084625b5041b089d4db6c6",
-          "presentationLink": "https://docs.google.com/presentation/d/1sQHGW93t-LnZZFTTAUyPX80oDfoeTcmADiuZR8bnw90/edit"
+          "presentationLink": "https://docs.google.com/presentation/d/1sQHGW93t-LnZZFTTAUyPX80oDfoeTcmADiuZR8bnw90/edit",
+          "location": {
+            "address": "Online"
+          }
         },
         {
           "title": "Ignite + Cluster API Helsinki September DevOps Meetup",
           "date": "2019-09-26T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/ignite-plus-cluster-api-helsinki-september-devops-meetup",
           "speakerdeckID": "85e6de6d01da49068e1f38cc9cf0ccc7",
-          "meetupLink": "https://www.meetup.com/devops-finland/events/264689537/"
+          "meetupLink": "https://www.meetup.com/devops-finland/events/264689537/",
+          "location": {
+            "address": "Smartly.io, Helsinki, Finland",
+            "latitude": 60.171547,
+            "longitude": 24.938202
+          }
         },
         {
           "title": "Kubernetes \u0026 CNCF Meetup: Helsinki October 2019",
           "date": "2019-10-24T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-helsinki-october-2019",
           "speakerdeckID": "ba59c1845fe342c3ae58d86135f534d1",
-          "recording": "https://youtu.be/Yxk-mY-V3Vk"
+          "recording": "https://youtu.be/Yxk-mY-V3Vk",
+          "location": {
+            "address": "Nokia HQ, Espoo, Finland",
+            "latitude": 60.2217765,
+            "longitude": 24.7560072
+          }
         },
         {
           "title": "Kubernetes Finland Workshop October 2019",
           "date": "2019-10-29T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-finland-workshop-october-2019",
           "speakerdeckID": "5dced0627bf94c29801a212e1a27f993",
-          "recording": "https://youtu.be/FcUY7Gv94J8"
-        },
-        {
-          "title": "Kubernetes \u0026 CNCF Meetup -- Turku October 2019",
-          "date": "2019-10-31T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-turku-october-2019",
-          "speakerdeckID": "96acfcddb72d48669cda7890ff838547",
-          "recording": "https://youtu.be/eyTv2uBL3ag"
+          "recording": "https://youtu.be/FcUY7Gv94J8",
+          "location": {
+            "address": "Eficode Oy, Tampere, Finland",
+            "latitude": 61.4955467,
+            "longitude": 23.7757902
+          }
         },
         {
           "title": "Intro to the cloud-native world of Kubernetes -- October 2019",
           "date": "2019-10-31T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/intro-to-the-cloud-native-world-of-kubernetes-october-2019",
           "speakerdeckID": "6ff3bceb5d72492292e2bb5903cc345b",
-          "recording": "https://youtu.be/eyTv2uBL3ag"
+          "recording": "https://youtu.be/eyTv2uBL3ag",
+          "location": {
+            "address": "Walkbase Oy, Tykistökatu, Turku, Finland",
+            "latitude": 60.44989589999999,
+            "longitude": 22.2939846
+          }
         },
         {
           "title": "Building and Scaling Cloud Native Nordics; Tips, Tricks, and Lessons Learned",
           "date": "2019-11-21T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/building-and-scaling-cloud-native-nordics-tips-tricks-and-lessons-learned",
-          "speakerdeckID": "355d4b08a56348c1b389858492a4574e"
+          "speakerdeckID": "355d4b08a56348c1b389858492a4574e",
+          "location": {
+            "address": "San Diego Convention Center, San Diego, CA",
+            "latitude": 32.707123,
+            "longitude": -117.1626025
+          }
         },
         {
           "title": "Kubernetes \u0026 CNCF Meetup: Helsinki November 2019",
           "date": "2019-11-28T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-and-cncf-meetup-helsinki-november-2019",
           "speakerdeckID": "d301ceac3678472e8df355db5cbbfc29",
-          "presentationLink": "https://docs.google.com/presentation/d/1ioEYbVuyNG1hqV7wt6RAY2T1Bof-eVB0I73XeOrPPjU/edit#slide=id.g597882388f_0_2"
+          "presentationLink": "https://docs.google.com/presentation/d/1ioEYbVuyNG1hqV7wt6RAY2T1Bof-eVB0I73XeOrPPjU/edit#slide=id.g597882388f_0_2",
+          "location": {
+            "address": "Intel Finland Oy, Westendinkatu, Espoo, Finland",
+            "latitude": 60.16779559999999,
+            "longitude": 24.7917109
+          }
         }
       ]
     }
