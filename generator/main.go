@@ -9,8 +9,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/luxaslabs/luxaslabs/generator/speakerdeck"
-	"github.com/luxaslabs/luxaslabs/generator/speakerdeck/location"
+	"github.com/luxas/speakerdeck-api"
+	"github.com/luxas/speakerdeck-api/location"
+	"github.com/luxas/speakerdeck-api/scraper"
 	log "github.com/sirupsen/logrus"
 	"sigs.k8s.io/yaml"
 )
@@ -25,6 +26,7 @@ func main() {
 }
 
 func run() error {
+	flag.Parse()
 	in, err := ioutil.ReadFile("data.yaml")
 	if err != nil {
 		return err
@@ -35,27 +37,25 @@ func run() error {
 		return err
 	}
 
-	us := speakerdeck.NewUserScraper()
-
 	// Enable geolocation if we've got an API key
+	var opts *scraper.ScrapeOptions
 	if len(*mapsAPIKey) != 0 {
 		locext, err := location.NewLocationExtension(*mapsAPIKey)
 		if err != nil {
 			return err
 		}
-		if err := us.AddExtension(locext); err != nil {
-			return err
+		opts = &scraper.ScrapeOptions{
+			Extensions: []scraper.Extension{locext},
 		}
 	}
 
 	for i, _ := range site.Persons {
-
-		sdUser, err := us.ScrapeUser("luxas")
+		talks, err := speakerdeck.ScrapeTalks("luxas", "", opts)
 		if err != nil {
 			return err
 		}
 
-		for _, talk := range sdUser.Talks {
+		for _, talk := range talks {
 			if talk.Hide {
 				log.Infof("Hiding presentation %s", talk.Title)
 				continue
@@ -65,7 +65,7 @@ func run() error {
 			p.Title = talk.Title
 			p.Date = talk.Date
 			p.SpeakerdeckID = talk.DataID
-			p.SpeakerdeckLink = NewURL(talk.Link.String())
+			p.SpeakerdeckLink = NewURL(talk.Link)
 			if talk.Location != nil {
 				p.Location = &Location{
 					Address:   talk.Location.RequestedAddress,
@@ -74,13 +74,13 @@ func run() error {
 				}
 			}
 
-			for domain, extraLink := range talk.ExtraLinks {
+			for domain, extraLinks := range talk.ExtraLinks {
 				if strings.Contains(domain, "meetup.com") {
-					p.MeetupLink = NewURL(extraLink.String())
+					p.MeetupLink = NewURL(extraLinks[0])
 				} else if strings.Contains(domain, "youtu") {
-					p.Recording = NewURL(extraLink.String())
+					p.Recording = NewURL(extraLinks[0])
 				} else if strings.Contains(domain, "docs.google.com") {
-					p.PresentationLink = NewURL(extraLink.String())
+					p.PresentationLink = NewURL(extraLinks[0])
 				}
 			}
 			// append to presentations
