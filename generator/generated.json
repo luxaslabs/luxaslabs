@@ -213,10 +213,10 @@
           }
         },
         {
-          "title": "SIG Cluster Lifecycle Deep Dive - KubeCon China 2018",
+          "title": "SIG Cluster Lifecycle Intro - KubeCon China 2018",
           "date": "2018-11-15T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-deep-dive-kubecon-china-2018",
-          "speakerdeckID": "100c59c3b9da4abb8cb6e349360cff9f",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-intro-kubecon-china-2018",
+          "speakerdeckID": "65966a77a2a740df8410376c16981af8",
           "location": {
             "address": "Shanghai International Sourcing Center, Putuo, Shanghai, China",
             "latitude": 31.2215177,
@@ -224,10 +224,10 @@
           }
         },
         {
-          "title": "SIG Cluster Lifecycle Intro - KubeCon China 2018",
+          "title": "SIG Cluster Lifecycle Deep Dive - KubeCon China 2018",
           "date": "2018-11-15T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-intro-kubecon-china-2018",
-          "speakerdeckID": "65966a77a2a740df8410376c16981af8",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-deep-dive-kubecon-china-2018",
+          "speakerdeckID": "100c59c3b9da4abb8cb6e349360cff9f",
           "location": {
             "address": "Shanghai International Sourcing Center, Putuo, Shanghai, China",
             "latitude": 31.2215177,
