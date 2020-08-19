@@ -52,7 +52,7 @@ type Project struct {
 
 type Person struct {
 	Name           string          `json:"name"`
-	Email          string          `json:"email`
+	Email          string          `json:"email"`
 	Biography      string          `json:"biography"`
 	SocialMedia    SocialMedia     `json:"socialMedia"`
 	Certifications []Certification `json:"certifications"`
@@ -93,10 +93,10 @@ type Location struct {
 
 type SocialMedia struct {
 	Github      string            `json:"github"`
-	Twitter     string            `json:"twitter`
+	Twitter     string            `json:"twitter"`
 	SpeakerDeck string            `json:"speakerdeck"`
-	LinkedIn    string            `json:"linkedin`
-	Slack       map[string]string `json:"slack`
+	LinkedIn    string            `json:"linkedin"`
+	Slack       map[string]string `json:"slack"`
 }
 
 type Certification struct {
