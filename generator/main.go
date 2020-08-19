@@ -49,7 +49,7 @@ func run() error {
 		}
 	}
 
-	for i, _ := range site.Persons {
+	for i := range site.Persons {
 		talks, err := speakerdeck.ScrapeTalks("luxas", "", opts)
 		if err != nil {
 			return err
