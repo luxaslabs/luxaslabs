@@ -39,6 +39,14 @@ persons:
       Troubleshooting
     issuer: Cloud Native Computing Foundation
     acclaimLink: https://www.youracclaim.com/badges/98e38048-5ea4-474b-aa74-d6ed5bb52837
+  presentations:
+  - title: "Community Building from Scratch: Sharing Experience of CNCF and K8s Meetups"
+    date: "2018-12-11T00:00:00Z"
+    recording: https://youtu.be/SHnVBGIQOsc
+    location:
+      address: "Washington State Convention Center, Seattle, WA"
+      latitude: 47.611544
+      longitude: -122.333023
   positions:
   - title: Kubernetes Subproject Owner & Approver
     description: |

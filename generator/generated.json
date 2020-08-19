@@ -2,14 +2,14 @@
   "persons": [
     {
       "name": "Lucas Käldström",
-      "Email": "lucas@luxaslabs.com",
+      "email": "lucas@luxaslabs.com",
       "biography": "Lucas is a cloud native enthusiast who has been serving the Kubernetes \u0026 CNCF communities\nin lead positions for more than 4 years. Lucas is a CNCF Ambassador, running 3 meetup\ngroups in Finland and coordinating the Cloud Native Nordics meetups. He got the \"Top Cloud\nNative Ambassador\" award together with Sarah Novotny 2017. Lucas has e.g. shepherded kubeadm\nfrom inception to GA as a co-lead for SIG Cluster Lifecycle, ported Kubernetes to Raspberry Pi\nand multiple other platforms. Lucas is a CKA, runs a consulting company \"luxas labs\" for cloud\nnative tech and has spoken at six KubeCons.\n",
       "socialMedia": {
         "github": "luxas",
-        "Twitter": "kubernetesonarm",
+        "twitter": "kubernetesonarm",
         "speakerdeck": "luxas",
-        "LinkedIn": "luxas",
-        "Slack": {
+        "linkedin": "luxas",
+        "slack": {
           "cloud-native": "luxas",
           "cloud-native-nordics": "luxas",
           "kubernetes": "luxas"
@@ -213,10 +213,10 @@
           }
         },
         {
-          "title": "SIG Cluster Lifecycle Intro - KubeCon China 2018",
+          "title": "SIG Cluster Lifecycle Deep Dive - KubeCon China 2018",
           "date": "2018-11-15T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-intro-kubecon-china-2018",
-          "speakerdeckID": "65966a77a2a740df8410376c16981af8",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-deep-dive-kubecon-china-2018",
+          "speakerdeckID": "100c59c3b9da4abb8cb6e349360cff9f",
           "location": {
             "address": "Shanghai International Sourcing Center, Putuo, Shanghai, China",
             "latitude": 31.2215177,
@@ -224,10 +224,10 @@
           }
         },
         {
-          "title": "SIG Cluster Lifecycle Deep Dive - KubeCon China 2018",
+          "title": "SIG Cluster Lifecycle Intro - KubeCon China 2018",
           "date": "2018-11-15T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-deep-dive-kubecon-china-2018",
-          "speakerdeckID": "100c59c3b9da4abb8cb6e349360cff9f",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-intro-kubecon-china-2018",
+          "speakerdeckID": "65966a77a2a740df8410376c16981af8",
           "location": {
             "address": "Shanghai International Sourcing Center, Putuo, Shanghai, China",
             "latitude": 31.2215177,
@@ -254,6 +254,18 @@
             "address": "Tuxera Inc, Espoo, Finland",
             "latitude": 60.1678919,
             "longitude": 24.8061895
+          }
+        },
+        {
+          "title": "Community Building from Scratch: Sharing Experience of CNCF and K8s Meetups",
+          "date": "2018-12-11T00:00:00Z",
+          "speakerdeckLink": null,
+          "speakerdeckID": "",
+          "recording": "https://youtu.be/SHnVBGIQOsc",
+          "location": {
+            "address": "Washington State Convention Center, Seattle, WA",
+            "latitude": 47.611544,
+            "longitude": -122.333023
           }
         },
         {
@@ -304,17 +316,6 @@
           }
         },
         {
-          "title": "Kubernetes' Architecture Deep Dive - Umeå May 2019",
-          "date": "2019-05-07T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-architecture-deep-dive-umea-may-2019",
-          "speakerdeckID": "a4b9e50e7a9e4df9a1f3d2398b374287",
-          "location": {
-            "address": "Umeå University, Dept. Of Computing Science, Umeå, Sweden",
-            "latitude": 63.8204575,
-            "longitude": 20.3074306
-          }
-        },
-        {
           "title": "What does “production ready” really mean for a Kubernetes cluster? -- Umeå May 2019",
           "date": "2019-05-07T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/what-does-production-ready-really-mean-for-a-kubernetes-cluster-umea-may-2019",
@@ -324,6 +325,17 @@
             "address": "XLENT Norr, Umeå, Sweden",
             "latitude": 63.8261459,
             "longitude": 20.2564922
+          }
+        },
+        {
+          "title": "Kubernetes' Architecture Deep Dive - Umeå May 2019",
+          "date": "2019-05-07T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/kubernetes-architecture-deep-dive-umea-may-2019",
+          "speakerdeckID": "a4b9e50e7a9e4df9a1f3d2398b374287",
+          "location": {
+            "address": "Umeå University, Dept. Of Computing Science, Umeå, Sweden",
+            "latitude": 63.8204575,
+            "longitude": 20.3074306
           }
         },
         {
@@ -337,25 +349,25 @@
           }
         },
         {
-          "title": "SIG Cluster Lifecycle Intro - KubeCon Barcelona 2019",
-          "date": "2019-05-21T00:00:00Z",
-          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-intro-kubecon-barcelona-2019",
-          "speakerdeckID": "d0ad63078616494da51c54214c03ced3",
-          "location": {
-            "address": "Fira Gran Via, Av. Joan Carles I, Barcelona, Spain",
-            "latitude": 41.3546878,
-            "longitude": 2.1277339
-          }
-        },
-        {
           "title": "Getting Started in the Kubernetes Community",
           "date": "2019-05-21T00:00:00Z",
           "speakerdeckLink": "https://speakerdeck.com/luxas/getting-started-in-the-kubernetes-community",
           "speakerdeckID": "6816e10f104a44cebb0915b392cadd2d",
           "location": {
             "address": "Fira Gran Via, Av. Joan Carles I, Barcelona, Spain",
-            "latitude": 41.3546878,
-            "longitude": 2.1277339
+            "latitude": 41.3547222,
+            "longitude": 2.1277778
+          }
+        },
+        {
+          "title": "SIG Cluster Lifecycle Intro - KubeCon Barcelona 2019",
+          "date": "2019-05-21T00:00:00Z",
+          "speakerdeckLink": "https://speakerdeck.com/luxas/sig-cluster-lifecycle-intro-kubecon-barcelona-2019",
+          "speakerdeckID": "d0ad63078616494da51c54214c03ced3",
+          "location": {
+            "address": "Fira Gran Via, Av. Joan Carles I, Barcelona, Spain",
+            "latitude": 41.3547222,
+            "longitude": 2.1277778
           }
         },
         {
@@ -412,8 +424,8 @@
           "recording": "https://youtu.be/Yxk-mY-V3Vk",
           "location": {
             "address": "Nokia HQ, Espoo, Finland",
-            "latitude": 60.2217765,
-            "longitude": 24.7560072
+            "latitude": 60.2212238,
+            "longitude": 24.7570854
           }
         },
         {
@@ -436,8 +448,8 @@
           "recording": "https://youtu.be/eyTv2uBL3ag",
           "location": {
             "address": "Walkbase Oy, Tykistökatu, Turku, Finland",
-            "latitude": 60.44989589999999,
-            "longitude": 22.2939846
+            "latitude": 60.45098809999999,
+            "longitude": 22.2954813
           }
         },
         {
